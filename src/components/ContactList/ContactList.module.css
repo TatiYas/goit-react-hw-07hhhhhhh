@@ -1,0 +1,17 @@
+.lists {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid purple;
+    border-radius: 4px;
+    padding: 10px;
+    margin-right: 15px;
+  }
+  .item:not(:last-child) {
+    margin-bottom: 10px;
+  }
